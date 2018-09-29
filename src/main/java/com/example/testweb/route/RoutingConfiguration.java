@@ -1,13 +1,10 @@
 package com.example.testweb.route;
 
-import com.example.testweb.filter.TestHandlerFilterFunction;
+import com.example.testweb.filters.TestHandlerFilterFunction;
 import com.example.testweb.handler.UserHandler;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
-import org.springframework.web.reactive.function.server.HandlerFilterFunction;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
